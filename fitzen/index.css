@@ -1,0 +1,105 @@
+a:link {
+    color: rgb(47, 47, 47); /* Change to the color you prefer */
+    text-decoration: none; /* Remove underline if desired */
+}
+
+/* Style for visited links */
+a:visited {
+    color: rgb(46, 46, 46); /* Change to the color you prefer */
+}
+
+/* Style for hovered links */
+a:hover {
+    transition: color 0.25s;
+    color: rgb(0, 0, 0); /* Change to the color you prefer */
+}
+
+/* Style for active links (while being clicked) */
+a:active {
+    color: rgb(0, 0, 0); /* Change to the color you prefer */
+}
+@font-face {
+    font-family: PP mori;
+    src: url(./ppmori.ttf);
+}
+body{
+    background-color: black;
+    font-family: PP mori;
+    
+}
+
+.chatbox{
+    background-color: aliceblue;
+    height: 80vh;
+    width: 60vh;
+    border-radius: 10px;
+    
+}
+.aipic{
+    height: 80vh;
+    border-radius: 10px;
+}
+.aidiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+#chat-container {
+    max-width: 520px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#messages {
+    padding: 20px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: #000000;
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#send-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #00a2ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#send-button:hover {
+    background-color: #a9a9a9;
+}
+
+.message {
+    background-color: #ffffff;
+    color: #0d0d0d;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.message.bot {
+    background-color: #00e5ff;
+}
