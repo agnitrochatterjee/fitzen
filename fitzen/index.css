@@ -1,0 +1,180 @@
+#nav{
+    height: 45px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    mix-blend-mode: difference;
+    z-index:102;
+}
+#nav img{
+    height: 3.5vh;
+    filter: invert();
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 150px;
+}
+.page2-right button:hover{
+    background-color: white;
+    border: #000000 solid 1px;
+    transition: ease 0.5s;
+    
+}
+#nav #circle{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#nav-part2 a{
+    text-decoration: none;
+}
+#nav h4{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav h4:nth-child(2){
+    border-bottom: 1.5px solid #fff;
+}
+.page1{
+    display: flex;
+    
+}
+.page1 h1{
+    padding-top: 60px;
+    font-size: 16vh;
+}
+.page1 h2{
+    margin-top: -65px;
+    font-size: 24.5vh;
+}
+.aidiv{
+    margin-top: 900px;
+}
+a:link {
+    color: rgb(255, 255, 255); /* Change to the color you prefer */
+    text-decoration: none; /* Remove underline if desired */
+}
+
+/* Style for visited links */
+a:visited {
+    color: rgb(255, 255, 255); /* Change to the color you prefer */
+}
+
+/* Style for hovered links */
+a:hover {
+    transition: color 0.25s;
+    color: rgb(255, 255, 255); /* Change to the color you prefer */
+}
+
+/* Style for active links (while being clicked) */
+a:active {
+    color: rgb(255, 255, 255); /* Change to the color you prefer */
+}
+@font-face {
+    font-family: PP mori;
+    src: url(./ppmori.ttf);
+}
+body{
+    background-color: black;
+    font-family: PP mori;
+    
+}
+.page1{
+    height: 100vh;
+    padding-top: 5%;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+.page2{
+    height: 100vh;
+
+}
+.chatbox{
+    padding-top: 10vh;
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 80vh;
+    border-radius: 10px;
+    
+}
+.aipic{
+    margin-top: 15vh;
+    height: 66vh;
+    border-radius: 10px;
+}
+.aidiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+#chat-container {
+    max-width: 520px;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#messages {
+    padding: 20px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: #ffffff;
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#send-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #00a2ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#send-button:hover {
+    background-color: #a9a9a9;
+}
+
+.message {
+    background-color: #ffffff;
+    color: #0d0d0d;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.message.bot {
+    background-color: #00e5ff;
+}
